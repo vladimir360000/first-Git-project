@@ -1,0 +1,53 @@
+body{
+    margin: 35px;
+}
+section{
+    display: grid;
+    grid-template: 125px 125px 125px/ 1fr 1fr 1fr 1fr 1fr;
+gap: 30px;
+
+}
+h1{
+    font-size: 50px;
+    margin-top: 0;
+}
+.e{
+    background-color: rgb(231, 231, 231);
+    grid-column: 1/4;
+}
+.r{
+    background-color: rgb(231, 231, 231);
+    grid-row:1/4;
+    grid-column:4/6 ;
+}
+img{
+    height: 125px;
+    margin-left: 30px;
+}
+input::placeholder {
+    color: rgba(0, 0, 0, 0.300);}
+    .f{
+        font-size: 25px;
+    }
+    .qw{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+    .ui{
+        height: 40px;
+    }
+    .u{
+     height: 40px;  
+background-color: forestgreen;
+color: white;
+    }
+    button h3{
+        margin: 0px;
+    }
+    .zx{
+        display: grid;
+        grid-template: 50px 50px/1fr 1fr;
+    }
+    .qwe{
+        font-size: 40px;
+    }
